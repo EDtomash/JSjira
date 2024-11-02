@@ -1,6 +1,4 @@
 'use strict';
-
-
 ////////////////////Mimimum #2///////////////
 
 // const userFirstName = "Stas";
@@ -93,7 +91,6 @@ multiline comment
 const exchangeRate  = 0.85;
 
 let userDollars = Number(prompt('How many dollars do you have?'));
-
 let euroExchange;
 
 if (isNaN(userDollars) || userDollars < 0) {
